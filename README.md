@@ -1,2 +1,2 @@
 # frontendWeb
-Archana Yadav(learning frontend)
+Archana Yadav(Learning frontend-HTML,CSS,JAVASCRIPT)
