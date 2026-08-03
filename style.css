@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(8, 2, 33, 0.971);
+}
+
+#container {
+    padding: 20px;
+    width: 25rem;
+    background-color: rgba(15, 9, 48, 0.971);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+#nav {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+
+}
+
+.btns {
+    background-color: rgba(3, 8, 34, 0.46);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    padding: 10px 30px;
+}
+
+#clock {
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    padding:10px;
+
+}
+
+#calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    opacity: 0.8;
+
+}
+
+.button {
+    background-color: rgba(3, 8, 34, 0.46);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    padding: 10px 30px;
+}
+
+#start-btn,
+#start-timer {
+    background-color: rgba(34, 197, 94, 0.9);
+}
+
+#pause-btn,
+#pause-timer {
+    background-color: rgba(245, 158, 11, 0.9);
+}
+
+#reset-btn,
+#reset-timer {
+    background-color: rgba(239, 68, 68, 0.9);
+}
+
+#lap-btn {
+    background-color: rgba(59, 130, 246, 0.9);
+}
+
+#timer-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#min,
+#sec {
+    background-color: rgba(8, 2, 33, 0.971);
+    color: white;
+    border: none;
+
+}
+
+/* or use the following
+#min ,#sec {
+color:white */
+
+
+.hidden{
+    display:none;
+}
